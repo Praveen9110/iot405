@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            font-family: Poppins, sans-serif;
+            border-radius: 20px;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(183, 181, 178);
+            padding: 10px;
+        }
+        .container{
+            height: 700px;
+            width: 800px;
+            display: flex;
+            gap: 0px;
+            background-image: url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80);
+            border: 1px solid black;
+            
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            background-color: #d2b4d6;
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            padding: 35px;
+            background-repeat: no-repeat;
+            flex-grow: calc(3);
+            
+            
+
+        }
+        .left-list{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 38px;
+        }
+        img {
+            width: 250px;
+            height: 250px;
+            
+        }
+        .left-upper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-content{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        button {
+            padding: 10px;
+            border-radius: 20px;
+            color: blue;
+            background-color: rgb(154, 120, 187);
+        }
+        h3 {
+            color:rgb(99, 12, 180);
+        }
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left-upper">
+                <img src="praveen.png" alt="pk">
+                <h3>praveen kumar</h3>
+                <p>Learner of UI/UX Designer</p>
+            </div>
+            <div class="left-list">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SKILLS</a>
+                <a href="#">EDUCATION</a>
+                <a href="#">CONTACT</a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-content">
+                <h1>I am <br>a Designer</h1>
+                <p>100% Template made <br>by us</p>
+                <button>view my portfolio</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
